@@ -1,3 +1,3 @@
 # qwasar_bot
 
-Этот бот помогает вам на платформе qwasar, получить Peer review, например вы можете поставить на ночь бот
+This bot helps you on the qwasar platform to get Peer review, for example, you can put a bot on the night, if someone sends a project for review, you will instantly receive it...
