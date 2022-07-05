@@ -12,13 +12,15 @@ from selenium.webdriver.common.alert import Alert
 
 
 def bot():
+
     url = "https://upskill.us.qwasar.io/"
     options = Options()
     options.add_argument('--window-size=1920,1080')
     driver = webdriver.Chrome(ChromeDriverManager().install())
     driver.get(url)
-    driver.find_element_by_xpath('//input[@id="username"]').send_keys('asrorbekisaqov3@gmail.com')
-    driver.find_element_by_xpath('//input[@id="password"]').send_keys('asrorbek1994')
+    driver.find_element_by_xpath('//input[@id="username"]').send_keys(
+        'abdulaziz.astrum@gmail.com')  # abdurahimovabubakr777@gmail.com
+    driver.find_element_by_xpath('//input[@id="password"]').send_keys('zzxxcc99')  # AbuBakr0000
     driver.find_element_by_xpath(
         '//button[@class="btn bg-c-dark-blue text-c-white hover-text-c-dark-blue hover-bg-c-white border-black '
         'radius-1 w-100 m-b-10"]').click()
@@ -41,8 +43,16 @@ def bot():
     driver.close()
     # alert = Alert(driver)
     # alert.accept()
-    while (True):
+    while True:
         pass
 
 
-bot()
+
+while True:
+        try:
+            bot()
+        except:
+            continue
+        break
+
+
